@@ -1,13 +1,10 @@
-package step_definitions;
+package step_definitions.letskodeit;
 
 import base.BasePage;
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
-import page_library.Homepage;
-import page_library.PracticePage;
-
-import java.util.List;
+import lets_kode_it_page_library.Homepage;
+import lets_kode_it_page_library.PracticePage;
 
 public class StepDefinitions extends BasePage {
 
@@ -15,8 +12,8 @@ public class StepDefinitions extends BasePage {
     PracticePage practicePage;
 
     // region Given
-    @Given("user navigates to application")
-    public void user_navigates_to_application() {
+    @Given("user navigates to Let's Kode It application")
+    public void user_navigates_to_lets_kode_it_application() {
         driver.get("https://www.letskodeit.com/");
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();

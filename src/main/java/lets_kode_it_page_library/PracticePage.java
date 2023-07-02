@@ -1,4 +1,4 @@
-package page_library;
+package lets_kode_it_page_library;
 
 import base.BasePage;
 import org.openqa.selenium.By;

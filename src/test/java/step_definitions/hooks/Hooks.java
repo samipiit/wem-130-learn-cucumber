@@ -1,4 +1,4 @@
-package step_definitions;
+package step_definitions.hooks;
 
 import base.BasePage;
 import io.cucumber.java.After;

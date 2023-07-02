@@ -1,7 +1,7 @@
 Feature: Lets Kode It Practice Page
 
   Background:
-    Given user navigates to application
+    Given user navigates to Let's Kode It application
     And user clicks practice button
     And user switches to newly opened tab
 
